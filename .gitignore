@@ -1,0 +1,8 @@
+.cola/
+.vs/
+bin/
+obj/
+packages/
+*.user
+.nuget/[Nn]u[Gg]et.exe
+artifacts/
