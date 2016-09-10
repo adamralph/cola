@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91852461-08EA-4BED-B082-CEE44E31E097}"
+	ProjectSection(SolutionItems) = preProject
+		src\Cola.ruleset = src\Cola.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7943AF12-CE0A-4A66-AB2C-C084F89B4323}"
+	ProjectSection(SolutionItems) = preProject
+		tests\ColaTests.ruleset = tests\ColaTests.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{47BEAA26-8381-4103-B545-0391A1BE928B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		build.cmd = build.cmd
+		LICENSE = LICENSE
+		README.md = README.md
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cola.Console", "src\Cola.Console\Cola.Console.csproj", "{792C468F-DD2B-4E31-B828-0482D2F4EA51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColaTests.Acceptance", "tests\ColaTests.Acceptance\ColaTests.Acceptance.csproj", "{7FAC7E1C-EE8C-42A1-8996-32C549EF92D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ColaTests.Smoke", "ColaTests.Smoke", "{84562ADA-11B8-467A-AFB2-9F5406CCBCDE}"
+	ProjectSection(SolutionItems) = preProject
+		tests\ColaTests.Smoke\hello-world-csharp-program.linq = tests\ColaTests.Smoke\hello-world-csharp-program.linq
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{792C468F-DD2B-4E31-B828-0482D2F4EA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792C468F-DD2B-4E31-B828-0482D2F4EA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792C468F-DD2B-4E31-B828-0482D2F4EA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792C468F-DD2B-4E31-B828-0482D2F4EA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAC7E1C-EE8C-42A1-8996-32C549EF92D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAC7E1C-EE8C-42A1-8996-32C549EF92D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAC7E1C-EE8C-42A1-8996-32C549EF92D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAC7E1C-EE8C-42A1-8996-32C549EF92D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{792C468F-DD2B-4E31-B828-0482D2F4EA51} = {91852461-08EA-4BED-B082-CEE44E31E097}
+		{7FAC7E1C-EE8C-42A1-8996-32C549EF92D6} = {7943AF12-CE0A-4A66-AB2C-C084F89B4323}
+		{84562ADA-11B8-467A-AFB2-9F5406CCBCDE} = {7943AF12-CE0A-4A66-AB2C-C084F89B4323}
+	EndGlobalSection
+EndGlobal
