@@ -15,7 +15,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <DocumentationFile>bin\$(Configuration)\ColaTests.Acceptance.xml</DocumentationFile>
     <CodeAnalysisRuleSet>..\ColaTests.ruleset</CodeAnalysisRuleSet>
     <NoWarn>$(NoWarn),1573,1591</NoWarn>

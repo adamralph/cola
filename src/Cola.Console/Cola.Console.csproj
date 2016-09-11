@@ -17,7 +17,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>false</UseVSHostingProcess>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <DocumentationFile>bin\$(Configuration)\cola.xml</DocumentationFile>
     <CodeAnalysisRuleSet>..\Cola.ruleset</CodeAnalysisRuleSet>
     <NoWarn>$(NoWarn),1573,1591</NoWarn>
