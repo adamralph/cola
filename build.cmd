@@ -42,5 +42,6 @@ packages\xunit.runner.console.2.1.0\tools\xunit.console.exe tests\ColaTests.Acce
 if %errorlevel% neq 0 exit /b %errorlevel%
 
 :: run smoke tests
+src\Cola.Console\bin\Release\cola.exe
 src\Cola.Console\bin\Release\cola.exe tests\ColaTests.Smoke\hello-world-csharp-program.linq
 if %errorlevel% neq 0 exit /b %errorlevel%
