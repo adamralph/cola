@@ -8,6 +8,9 @@ namespace Cola
     {
         public static async Task<int> MainAsync(string[] args)
         {
+#if DEBUG
+            await new App(Console.Out).Run(AppContext.Parse(args));
+#else
             try
             {
                 await new App(Console.Out).Run(AppContext.Parse(args));
@@ -17,6 +20,7 @@ namespace Cola
                 await Console.Error.WriteLineAsync(ex.Message);
                 return 1;
             }
+#endif
 
             return 0;
         }
