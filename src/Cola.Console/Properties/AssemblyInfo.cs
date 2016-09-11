@@ -14,13 +14,13 @@ using System.Runtime.InteropServices;
 [assembly: CLSCompliant(true)]
 
 // NOTE (adamralph): this is used for the app version
-[assembly: AssemblyInformationalVersion("1.1.0")]
+[assembly: AssemblyInformationalVersion("1.2.0")]
 
 // NOTE (adamralph): fixed at 0.0.0.0 - only app versions matter
 [assembly: AssemblyVersion("0.0.0.0")]
 
 // NOTE (adamralph): this is only used by Windows Explorer so it may well reflect the app version
-[assembly: AssemblyFileVersion("1.1.0.0")]
+[assembly: AssemblyFileVersion("1.2.0.0")]
 
 [assembly: AssemblyTitle("Cola.Console")]
 [assembly: AssemblyDescription("")]
