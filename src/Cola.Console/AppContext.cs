@@ -9,17 +9,19 @@ namespace Cola
 
         public static AppContext Parse(string[] args)
         {
-            if (args.Length == 0)
-            {
-                throw new ArgumentException("I need a file name.", "args");
-            }
-
             if (args.Length > 1)
             {
                 throw new ArgumentException("I can only run one file at a time.", "args");
             }
 
-            return new AppContext { FileName = args[0] };
+            var appContext = new AppContext();
+
+            if (args.Length > 0)
+            {
+                appContext.FileName = args[0];
+            }
+
+            return appContext;
         }
     }
 }
