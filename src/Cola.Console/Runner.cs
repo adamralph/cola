@@ -72,6 +72,7 @@ namespace LINQPad
             var references = new[]
             {
                 MetadataReference.CreateFromFile(typeof(object).GetTypeInfo().Assembly.Location),
+                MetadataReference.CreateFromFile(typeof(Uri).GetTypeInfo().Assembly.Location),
             };
 
             var options = new CSharpCompilationOptions(OutputKind.DynamicallyLinkedLibrary);
