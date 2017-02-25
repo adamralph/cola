@@ -16,4 +16,4 @@ Cola currently supports a small subset of the features of [lprun.exe](https://ww
 
 ---
 
-<sub>[Soda Bottle](https://thenounproject.com/term/soda-bottle/260224) by [Joan Andujar](https://thenounproject.com/jonathan.lutaster/) from [the Noun Project](https://thenounproject.com/).</sub>
+<sub>[Soda Bottle](https://thenounproject.com/term/soda-bottle/260224) by [Jonathan Lutaster](https://thenounproject.com/jonathan.lutaster/) from [the Noun Project](https://thenounproject.com/).</sub>
